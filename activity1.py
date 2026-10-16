@@ -1,6 +1,5 @@
-#start 
-print ("Hello, guys!")
-print ("My name is Rayyaan")
-print ("I love going to my new school")
-print ("And I get to play on Saturday, Yay!")
-print ("Finally, My favourite food is Briyani and Kebab, or for dinner its Kima!")
+print ("Welcome to the world of programming!")
+print (5)
+print ("Hello \n")
+print ("HELLO", 67)
+print ("IM INVINIBLE", end="!")
