@@ -1,0 +1,5 @@
+print ("I wake up at 6:30 on weekdays")
+print ("I go to school at 8:00")
+print ("I finish school at 3:30")
+print ("I have lunch after I take a shower")
+print ("Finally, I go to sleep 11PM")
