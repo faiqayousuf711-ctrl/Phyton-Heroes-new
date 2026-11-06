@@ -1,11 +1,9 @@
-print ("Secret Ghost Viper Department Login")
-name = input("Enter your Real name")
-age = input("Enter your Favorite Gadget")
+#start here
+Straberry_field = 85
+Blueberry_field = 134
+Mango_field = 201
+Jackfruit_field = 289
+Guava_field = 104
+total = Straberry_field + Blueberry_field + Mango_field + Jackfruit_field + Guava_field
 
-number = 601137972305
-speed_count = 18.2
-mission_count = 79
-height = 4,8
-Active_status = True
-
-print (name, age, )
+print ("Total KG farmed these 6 months:", total)
