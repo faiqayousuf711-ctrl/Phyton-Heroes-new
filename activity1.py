@@ -1,44 +1,16 @@
-#Start here
-temprature = (input("Enter today's temprature in celcius: "))
-new_Temprature = int(temprature)
+print ("========SMART SCHOOL DAY PLANNER========")
 
-if new_Temprature < 20:
- outfit = "Jacket"
- print("Get a jacket!")
-else: 
- print("Then get a T-Shirt")
+Day = (input("Hi! You are using SSDP, to start, what is the day today?(Monday to sunday)"))
+Weather = (input("Okay, to continue, What is the weather?(Cloudy, Rainy, or sunny)"))
+Homework = (input("Now finally, tell me if your homework is done(Note: Processing time will take a bit of a while(Yes/No))"))
 
-Raining = (input("To proceed, Tell me: Is it raining?(yes/no)"))
-if Raining == "yes":
- is_raining = "yes" 
- print("Bring an umbrella!")
-else: 
- print("Then you are fine!")
-
-wind = (input("To continue our conversation, Tell me your wind speed in km/h: "))
-new_Wind = int(wind)
-if new_Wind > 30:
- needs_windbreaker = "Yes"
- print("Wear a windbreaker over your outfit in the last message(T-shirt/jacket)")
+if Day in ("Saturday", "Sunday"):
+ print ("Its the weekand! Enjoy your free time!")
+elif Day == ("Monday"):
+ print("First day of the week! Stay sharp")
+elif Day == ("Friday"):
+ print("Last day, flip canteen chairs on the tables and pray Jumma prayer")
+elif Day == ("Tuesday", "Wednesday", "Thursday"):
+ print("Okay, seems like its a regular day, Focus!")
 else:
- print("You are fine then!")
-
-puddles = (input("To finally complete our weather check, tell me: Is there puddles on the ground?(yes/no)"))
-
-if puddles == "yes":
- shoes = "boots"
- print("Wear boots")
-else:
- shoes = "sneakers"
- print("Just wear some sneakers")
-
-print ("")
-print ("Weather check complete!")
-print ("")
-
-print("=========WEATHER OUTFIT PICKER==========")
-print("Temprature:", new_Temprature)
-print("Raining?:", Raining)
-print ("Windbreaker needed?:", wind)
-print ("Shoes:", shoes)
-print("========================================")
+ print("Day not recognized, please check your spelling or do upper case")
